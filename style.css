@@ -1,0 +1,249 @@
+*{   
+ font-family: "Outfit", sans-serif;
+ font-optical-sizing: auto;
+ font-style: normal;
+}
+body{
+    width: 100;
+    min-height: 100vh;
+}
+.nav{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+
+}
+a{
+    margin-right: 50px;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom:1px solid #f07171;
+    cursor: pointer;
+}
+.login{
+    background-color: white;
+    border-color: transparent;
+    padding: 10px;
+}
+.login:hover{
+   cursor: pointer;
+   border-color: black;
+}
+.sign{
+  background-color: #f07171;
+  border-color: transparent;
+  padding: 10px;
+  color: white;
+}
+.sign:hover{
+  background-color: brown;
+  cursor: pointer;
+}
+.logo-group{
+    display: flex;
+    align-items: center;
+}
+.explore-now-button{
+    padding: 7px;
+    background-color: #f07171;
+    align-items: center;
+    display: flex;
+    border-color: transparent;
+    color: white;
+    font-size:large;
+    
+}
+
+
+.explore-now-button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+
+.hero{
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+.hero-right{
+    margin-left: 100px;
+}
+.hero-paragragh{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.hero-left{
+    width: 500px;
+}
+.hero2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6F6;
+    padding: 40px;
+    margin: 20px;
+}
+.hero2 p{
+    font-weight: 100;
+}
+.hero3-left{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.hero-left{
+    margin-right: 100px;
+}
+.hero-right{
+    width: 500px;
+}
+.hero-paragragh{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.hero3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.rate p{
+    font-weight: 100;
+}
+.hero-right{
+    margin-left: 30px;
+}
+.image{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    
+}
+.funiture{
+    align-items: center;
+    justify-content: centre;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.funiture-price{
+    margin: 20px;
+}
+.funiture-price h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.img{
+    width: 400px;
+    object-fit: cover;
+}
+
+.section-benefit{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.benefits-list{
+    display: flex;
+}
+.benefit-button{
+    padding: 7px;
+    background-color: #f07171;
+    align-items: center;
+    display: flex;
+    border-color: transparent;
+    color: white;
+    font-size: large;
+}
+.benefit-button:hover{
+    background-color: brown;
+    cursor: pointer;
+    
+}
+.section-benefit-one{
+    margin-left: 100px;
+}
+.benefit-image{
+    margin-right: 100px;
+}
+.company-logo{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.review{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.review-image{
+    display: flex;
+}
+
+.reviews{
+    width: 25%;
+   background-color: #f6f6f6;
+    padding: 30px 20px ;
+    border-radius: 3px;
+}
+
+.cus-heading {
+  align-items: center;
+  justify-content: center;  
+}
+.footer{
+    background-color: #F6F6F6;
+    padding: 30px;
+    margin-top: 70px;
+}
+.section-eight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 200px;
+}
+.social-sectionn{
+    width: 30%;
+}
+.footer-logo{
+    margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+   
