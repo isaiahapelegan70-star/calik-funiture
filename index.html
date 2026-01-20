@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="assets/Frame 38.png">
 </head>
@@ -41,6 +42,9 @@
             <button class="sign">Sign up</button>
 
         </div>
+        <div class="menu">
+            <img src="assets/icons8-menu-24.png" alt="">
+        </div>
     </div>
 
 </nav>
@@ -51,8 +55,9 @@
     <section class="hero">
         <div class="hero-section">
             <div class="hero-left">
-                <h1>Refining the tone
+                <h1 class="h1">Refining the tone
                     of your space</h1>
+                    
                 <p class="hero-paragrah">
                     A chair with a high back will provide optimum comfort.<br> The fashionable design of the chair will
                     allow you to<br> decorate any room at home, kitchens, restaurants
@@ -92,7 +97,9 @@
 
     </section>
     <section class="hero3">
-        <div class="hero-left">
+        <div class="hero-left" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             <img class="cossyfuniture-image" src="assets/Rectangle 17 (1).png" alt="cossyfuniture" />
         </div>
 
@@ -177,8 +184,8 @@
 
     <section class="section-five">
         <div class="section-benefit">
-            <div class="section-benefit-one">
-                <h3>Our Service & Benefits</h3>
+            <div  data-aos="fade-right" class="section-benefit-one">
+                <h3 class="our-service">Our Service & Benefits</h3>
                 <p class="hero-paragrph">
                     We are working on this connercial since 2000.almost 21 out of buisness service.<br> and we almost
                     works with 100k+<br> organisations and the top related funiture and event service<br> in USA.
@@ -201,7 +208,7 @@
                 </div>
                 <button class="benefit-button"> <img src="assets/play.png" alt=""> Watch intro </button>
             </div>
-            <div class="benefit-image">
+            <div  data-aos="fade-left" class="benefit-image">
                 <img class="service-image" src="assets/Rectangle 26.png" alt="service" />
             </div>
         </div>
@@ -211,7 +218,7 @@
         <div class="section-six">
             <div class="company-logo">
                 <div>
-                <img src="assets/microsoft (1).png" alt="">
+                <img src="assets/microsoft (1).png" alt="" class="microsoft">
                 </div>
                 <div>
                 <img src="assets/decor.png" alt="">
@@ -345,4 +352,6 @@
     </section>
 
 </main>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>

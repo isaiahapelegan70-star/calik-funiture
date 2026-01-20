@@ -4,7 +4,8 @@
  font-style: normal;
 }
 body{
-    width: 100;
+    width: 100%;
+    overflow-x: hidden;
     min-height: 100vh;
 }
 .nav{
@@ -44,6 +45,9 @@ a:hover{
   background-color: brown;
   cursor: pointer;
 }
+.menu{
+    display: none;
+}
 .logo-group{
     display: flex;
     align-items: center;
@@ -72,9 +76,10 @@ a:hover{
     justify-content: space-between;
     padding: 40px 20px;
 }
-.hero-right{
-    margin-left: 100px;
+.hero-right img{
+    width: 100%;
 }
+
 .hero-paragragh{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -84,9 +89,14 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 10px;
+    padding-right: 30px;
 }
 .hero-left{
-    width: 500px;
+    width: 50%;
+}
+.h1{
+    font-size: 50px;
 }
 .hero2{
     display: flex;
@@ -107,7 +117,7 @@ a:hover{
     margin-right: 100px;
 }
 .hero-right{
-    width: 500px;
+    width: 50%;
 }
 .hero-paragragh{
     margin-top: 20px;
@@ -137,14 +147,16 @@ a:hover{
     justify-content: center;
     flex-direction: column;
     margin-bottom: 40px;
+    width: 30%;
 
     
 }
 .funiture{
     align-items: center;
-    justify-content: centre;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 
 }
 .funiture-price{
@@ -154,9 +166,11 @@ a:hover{
     align-items: center;
     justify-content: center;
     display: flex;
+    font-size: 50px;
+    
 }
 .img{
-    width: 400px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -165,6 +179,14 @@ a:hover{
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    font-size: 20px;
+}
+.our-service{
+    font-size: 50px;
+}
+.service-image{
+    width: 350px;
+    
 }
 .benefits-list{
     display: flex;
@@ -196,6 +218,10 @@ a:hover{
     justify-content: space-between;
     margin: auto;
     
+}
+.cus-heading{
+    text-align: center;
+    font-size: 50px;
 }
 
 .review{
@@ -236,8 +262,116 @@ a:hover{
     width: 30%;
 }
 .footer-logo{
-    margin-left: 250px;
+    margin-left: 130px;
 }
+
+
+@media screen and (max-width:426px){
+    .nav-button{
+        display: none;
+    }
+    .link{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-right{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .h1{
+        font-size: 1.5rem;
+    }
+    .hero-left{
+        margin-right: 0px;
+        width: 100%;
+    }
+    .hero2{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        
+    }
+    .hero3-left{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .cossyfuniture-image{
+        width: 100%;
+    }
+    .hero3{
+        flex-direction: column;
+    }
+    .rate{
+        align-items: flex-start;
+    }
+    .funiture-price h1{
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+    .image{
+        width: 100%;
+    }
+    .section-benefit{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section-benefit-one {
+     margin-left: 0;
+}
+    .our-service {
+    font-size: 1.5rem;
+    }
+
+    .benefit-image {
+     margin-right: 0px;
+     margin-top: 50px;
+}
+    .service-image {
+    width: 100%; 
+}
+.company-logo{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.microsoft{
+    display: none;
+}
+.cus-heading{
+    font-size: 1.5rem;
+}
+.review{
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}.reviews{
+    width: 100%;
+}
+.section-eight{
+    margin-left: 0;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+
+
+}
+.footer-logo{
+    margin-left: 0;
+}
+.social-sectionn{
+    width: 100%;
+}
+}
+
+
+
 
 
 
