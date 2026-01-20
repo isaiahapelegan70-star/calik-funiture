@@ -266,7 +266,7 @@ a:hover{
 }
 
 
-@media screen and (max-width:426px){
+@media screen and (max-width:640px){
     .nav-button{
         display: none;
     }
